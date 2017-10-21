@@ -11,7 +11,8 @@
         "build": "gulp",
         "rootcerts": "node ./update-rootcerts.js"
     },
-    "contributors": [{
+    "contributors": [
+        {
             "name": "Christopher Jeffrey",
             "email": "chjeffrey@gmail.com"
         },
@@ -43,12 +44,12 @@
     "browser": "lib/browser.js",
     "dependencies": {
         "asn1.js": "=4.5.2",
-        "bitcore-lib": "git://github.com/bitchk-wallet/bitcore-lib#bitchk",
+        "bitcore-lib": "https://github.com/bitchk-wallet/bitcore-lib#bitchk",
         "jsrsasign": "=5.0.10",
         "protobufjs": "=5.0.1"
     },
     "devDependencies": {
-        "bitcore-build": "git://github.com/bitchk-wallet/bitcore-build.git",
+        "bitcore-build": "https://github.com/bitchk-wallet/bitcore-build.git#bitchk",
         "brfs": "^1.2.0",
         "chai": "~1.10.0",
         "gulp": "^3.8.10",
