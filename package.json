@@ -43,10 +43,10 @@
     },
     "browser": "lib/browser.js",
     "dependencies": {
-        "asn1.js": "=4.5.2",
+        "asn1.js": "4.5.2",
         "bitcore-lib": "https://github.com/bitchk-wallet/bitcore-lib#bitchk",
-        "jsrsasign": "=5.0.10",
-        "protobufjs": "=5.0.1"
+        "jsrsasign": "5.0.10",
+        "protobufjs": "5.0.1"
     },
     "devDependencies": {
         "bitcore-build": "https://github.com/bitchk-wallet/bitcore-build.git#bitchk",
